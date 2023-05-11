@@ -59,7 +59,3 @@ MESSAGE (STATUS "${PROJECT_NAME} other infomation:")
 # show building install path
 MESSAGE (STATUS "  Package install path:         ${CMAKE_INSTALL_PREFIX}")
 MESSAGE (STATUS "")
-
-IF (TENGINE_ONLINE_REPORT)
-MESSAGE (WARNING "  - Tengine Online Report is : " ${TENGINE_ONLINE_REPORT})
-ENDIF()
